@@ -57,5 +57,5 @@ nohup python s2s_main.py --name <dataset_name> --root <source_path> --model_lr <
 If you have any questions about the implementation of CQ-former or data preprocessing, please contact me at:
 
 ```plaintext
-xx@gmail.com
+zsjxll@gmail
 ```

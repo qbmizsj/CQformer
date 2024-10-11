@@ -1,6 +1,6 @@
 # CQ-former
 
-This project implements a segmentation model that works with various medical imaging datasets.
+This project implements a segmentation model that works with various medical imaging datasets. Here we provide single label (Heart) and multi-label dataset (Abdomen) for example
 
 ## Requirements
 
@@ -51,6 +51,12 @@ nohup python s2s_main.py --name <dataset_name> --root <source_path> --model_lr <
 - `--optim`: Type of optimizer (default: sgd).
 - `--result_path`: Path to save results.
 - `--seed`: Random seed (default: 44).
+
+### Encoder selection
+We provide standared U-Net-like encoder for training. Also, some hierarchical encoders (like TransUNet head) could also be employed
+
+### Explanatory experiment
+We will organize the ERF calculation and our toy model using circle for illustration
 
 ## Questions
 
